@@ -1,0 +1,147 @@
+/* #content table#main tr ,#content table td #content table#main{
+    border-top: 3px solid #73777B;
+} */
+#content table#main tr.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+#content {
+    display: flex;
+    margin-bottom: 50px;
+}
+#content .right{
+    width: 45%;
+    margin: 2.5%;
+}
+#content table#main{
+    width: 100%;
+    margin: 15px 2.5%;
+}
+#content table#main td.product{
+    display: flex;
+}
+#content table#main td.num,#content table#main td.money,#content table#main td.payment{
+    width: 15%;
+}
+#content table#main img{
+    width: 30%;
+}
+#content table#main .name{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content #main td.num table{
+    width: 40%;
+}
+#content #main table,#content #main table td,#content #main table tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 7px;
+}
+#content #main td.num table .up-dow:hover{
+    cursor: pointer;
+    background-color: #F1EEE9;
+}
+#content .left .btn{
+    width: 90%;
+    margin: 25px 2.5%;
+}
+#content .left .btn a{
+    margin-right: 2.5%;
+    margin-top: 15px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #F32424;
+}
+#content .left .btn a.next{
+    color: #F32424;
+}
+#content .left .btn a.next:hover{
+    background-color: #F32424;
+    color: white;
+}
+#content .left .btn a.bought{
+    background-color: #F32424;
+    color: white;
+}
+#content .right {
+    border-left: 1px solid #b4b0a7;
+    width: 100%;
+    padding: 0 5px;
+}
+#content .right p{
+    padding: 5px 0;
+}
+#content .right > div.title > p.title{
+    /* margin: 15px 0; */
+    font-size: 20px;
+}
+#content .right > div.title{
+    border-bottom: 3px solid #b4b0a7;
+}
+#content .right .item p.title{
+    font-size: 18px;
+
+}
+#content .right .item .content{
+    text-align: right;
+}
+#content .right .item{
+    display: flex;
+}
+#content .right .item .title{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#content .right .item .content{
+    width: 50%;
+    line-height: 22px;
+}
+#content .right .item {
+    border-bottom: 1px solid #b4b0a7;
+}
+#content .right .sum{
+    border-bottom: 3px solid #b4b0a7;
+}
+#content .right button{
+    width: 100%;
+    height: 35px;
+    margin: 15px 0;
+    border: 1px solid #bd1010;
+    background-color: #F32424;
+    border-radius: 3px;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#content .right .payment p{
+    text-transform: uppercase;
+    font-size: 12px;
+    word-spacing: 5px;
+}
+#content .right .payment p i{
+    padding: 5px;
+}
+#content .right .ship a{
+    text-decoration: none;
+    color: #333;
+}
+#content .right .payment input{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #333;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+#content .right .payment input[type=submit]:hover{
+    background-color: #b4b0a7;
+    cursor: pointer;
+}

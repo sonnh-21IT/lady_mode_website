@@ -1,0 +1,218 @@
+#content {
+    width: 90%;
+    margin: 25px 5%;
+}
+#content .main{
+    display: flex;
+    justify-content: center;
+}
+#content .main .left ,#content .main .right{
+    width: 45%;
+}
+#content .main .left img.main{
+    width: 90%;
+    margin: 25px 5%;
+}
+#content .main .left .more{
+    display: flex;
+    width: 90%;
+    margin: 0 5%;
+}
+#content .main .left .more img{
+    width: 150px;
+    margin: 5px;
+    cursor: pointer;
+}
+#content .main .left .more img.active{
+    border: 1px solid black;
+}
+#content .main .left .more img:hover{
+    border: 1px solid black;
+}
+#content .main > .right {
+    margin-top: 75px;
+}
+#content .main .right .title{
+    font-size: 25px;
+    margin: 5px 0;
+}
+#content .main .right hr{
+    width: 50px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #D0C9C0;
+    border: none;
+}
+#content .main .right .price{
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: 550;
+}
+#content .main .right .price u{
+    font-size: 20px;
+}
+#content .main .right .addtobox div.up_dow{
+    display: flex; 
+}
+#content .main .right .addtobox table.up_dow,#content .main .right .addtobox table.up_dow td,#content .main .right .addtobox table.up_dow tr{
+    border: 1px solid #73777B;
+    border-collapse:collapse;
+}
+#content .main .right .addtobox table.up_dow td,#content .main .right .addtobox table.up_dow tr{
+    padding: 5px;
+}
+#content .main .right .addtobox table.up_dow{
+    width: 15%;
+    text-align: center;
+}
+#content .main .right .addtobox table.up_dow .num{
+    padding: 5px 8px;
+}
+#content .main .right .addtobox table.up_dow .up_dow{
+    cursor: pointer;
+}
+#content .main .right .addtobox table.up_dow .up_dow:hover{
+    background-color: #F1EEE9;
+}
+#content .main .right .addtobox .btn_add {
+    width: 85%;
+    text-align: center;
+
+}
+#content .main .right .addtobox .btn_add a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    background-color: #c30005;
+    border-radius: 5px 15px;
+    padding: 6px;
+}
+#content .main .right .addtobox .payment{
+    display: flex;
+    margin: 25px 0px;
+}
+#content .main .right .addtobox .payment table{
+    width: 100%;
+}
+#content .main .right .addtobox .payment table img{
+    width: 100%;
+}
+#content .same div.title,
+#content .evaluate div.title,
+#content .more div.title{
+    width: 90%;
+    margin: 15px 5%;
+    padding: 10px 5px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#content .more td,#content .more tr{
+    border-bottom: 2px solid #D0C9C0;
+}
+#content .more td{
+    padding: 10px 25px;
+}
+#content .more table{
+    width: 90%;
+    margin: 0 5%;
+}
+#content .more td.title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#content form{
+    width: 90%;
+    margin: 0 5%;
+}
+#content form .title{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+#content form ul li{
+    display: inline;
+    margin: 5px;
+    font-size: 28px;
+    color: #DFD8CA;
+    cursor: pointer;
+}
+#content form ul li:hover{
+    color: #FEE440;
+}
+#content form ul{
+    list-style: none;
+    margin-top: 15px;
+}
+#content form textarea{
+    width: 85%;
+    height: 100px;
+}
+#content form label{
+    margin-top: 15px;
+    display: block;
+}
+#content form div.name-email{
+    display: flex;
+    width: 100%;
+}
+#content form div.name-email{
+    width: 90%;
+}
+#content form div.name-email .right,#content form div.name-email .left{
+    width: 50%;
+}
+#content form input{
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+#content form #btn{
+    width: 150px;
+    background-color: #c30005;
+    color: white;
+    cursor: pointer;
+}
+#content form #btn:hover{
+    background-color: #FF0000;
+}
+#content .same .item{
+    display: flex;
+    width: 90%;
+    margin: 0px 5%;
+}
+#content .same .item .content-item{
+    margin: 15px 10px;
+    border: 1px solid #73777B;
+    border-radius: 5px;
+}
+#content .same .item img{
+    width: 100%;
+}
+#content .same .item p{
+    text-align: center;
+}
+#content .same .item p.title{
+    font-size: 18px;
+    margin: 10px 0;
+}
+#content .same .item p.price{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#content .same .item button{
+    width: 50%;
+    height: 30px;
+    margin: 0 25%;
+    margin-bottom: 25px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#content .same .item button:hover{
+    background-color: #FF0000;
+}

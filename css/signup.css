@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-image: linear-gradient(to top right, #07C8F9,#FF6FB5);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main{
+  width: 50%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  max-width: 450px;
+  background-color: white;
+  height: 550px;
+}
+#main .title{
+ padding: 25px 0;
+ font-size: 26px;
+ font-weight: bold;
+ text-align: center;
+}
+#main form{
+  width: 100%;
+}
+#main form input[type=text]{
+  border: none;
+  background:none;
+  border-bottom: 2px solid #D0C9C0;
+  padding: 5px 10px;
+  font-size: 16px;
+  width: 90%;
+  margin: 25px 5%;
+}
+#main form input[type=submit]{
+  width: 90%;
+  margin: 0 5%;
+  border: none;
+  background-image: linear-gradient(to right, #07C8F9,#FF6FB5);
+  font-size: 16px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  height: 35px;
+  line-height: 35px;
+}
+#main form .forgot-pass{
+  text-align: right;
+  margin: 0 5%;
+  padding:25px 0;
+}
+
+#main form .forgot-pass a{
+  text-decoration: none;
+  color: black;
+}
+#main form .or{
+  padding-top: 50px;
+  text-align: center;
+}
+#main form ul{
+  list-style: none;
+  text-align: center;
+  margin-top: 15px;
+}
+#main form ul li{
+  display: inline-block;
+}
+#main form ul li a{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 50%;
+}
+#main form ul li a.item-fb{
+  background-color: #333C83;
+}
+#main form ul li a.item-tt{
+  background-color: #0C63E7;
+}
+#main form ul li a.item-gg{
+  background-color: #FD5D5D;
+}
